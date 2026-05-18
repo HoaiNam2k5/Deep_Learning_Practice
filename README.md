@@ -1,5 +1,6 @@
 # Deep Learning - Thực hành
-
+Họ và tên:Nguyễn Hoài Nam
+Mã số sinh viên:2001230530
 Repository tổng hợp các notebook thực hành môn Deep Learning, trình bày rõ mục tiêu và nội dung của từng lab.
 
 ## Tổng quan các lab
