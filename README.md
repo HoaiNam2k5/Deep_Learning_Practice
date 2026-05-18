@@ -64,6 +64,20 @@ Repository tổng hợp các notebook thực hành môn Deep Learning, trình b�
 
 **Kết quả đạt được:** Hoàn thiện pipeline tiền xử lý + trực quan dữ liệu cơ bản cho bài toán machine learning.
 
+---
+
+### 4) `Lab02_Heart_Rate_Prediction_with_TensorFlow.ipynb`
+**Mục tiêu:** Dự đoán nhịp tim từ dữ liệu bệnh nhân và thực hành quy trình học máy với TensorFlow.
+
+**Nội dung đã thực hiện:**
+- Nạp dữ liệu từ URL và làm sạch dữ liệu đầu vào
+- Mã hóa nhãn, chia train/test và chuẩn hóa dữ liệu
+- Khởi tạo `tf.data.Dataset` cho huấn luyện
+- Xây dựng mô hình `Sequential`, huấn luyện và đánh giá
+- Lưu `scaler.pkl` và mô hình `heart_rate_model.keras`
+
+**Kết quả đạt được:** Hoàn thiện pipeline dự đoán nhịp tim và lưu trữ mô hình phục vụ suy luận.
+
 ## Môi trường chạy
 
 - Python 3.x
@@ -72,6 +86,7 @@ Repository tổng hợp các notebook thực hành môn Deep Learning, trình b�
   - `numpy`
   - `pandas`
   - `tensorflow`
+  - `scikit-learn`
   - `matplotlib`
   - `seaborn`
 
@@ -81,7 +96,7 @@ Repository tổng hợp các notebook thực hành môn Deep Learning, trình b�
 ```bash
 git clone https://github.com/HoaiNam2k5/Deep_Learning_Practice.git
 cd Deep_Learning_Practice
-pip install numpy pandas tensorflow matplotlib seaborn notebook
+pip install numpy pandas tensorflow scikit-learn matplotlib seaborn notebook
 jupyter notebook
 ```
 
@@ -89,6 +104,7 @@ Sau đó mở lần lượt các file:
 - `Lab1_Numpy_Pandas.ipynb`
 - `Lab1_Tensorflow.ipynb`
 - `Data_Pre_Processing.ipynb`
+- `Lab02_Heart_Rate_Prediction_with_TensorFlow.ipynb`
 
 ### Chạy trên Google Colab
 - Mở notebook bằng Colab badge trong từng file, hoặc upload trực tiếp file `.ipynb`.
@@ -100,5 +116,6 @@ Deep_Learning_Practice/
 ├── Lab1_Numpy_Pandas.ipynb
 ├── Lab1_Tensorflow.ipynb
 ├── Data_Pre_Processing.ipynb
+├── Lab02_Heart_Rate_Prediction_with_TensorFlow.ipynb
 └── README.md
 ```
